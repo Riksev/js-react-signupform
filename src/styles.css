@@ -190,7 +190,7 @@ input[type="number"] {
   border-radius: 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  appearance: -webkit-appearance;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -222,6 +222,7 @@ select {
 select {
   margin: 0;
   -webkit-appearance: none;
+  appearance: -webkit-appearance;
   box-sizing: border-box;
   padding: 0.65rem 0.5rem;
   font-size: 1rem;
